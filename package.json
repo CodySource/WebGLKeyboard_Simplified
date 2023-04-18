@@ -1,0 +1,14 @@
+{
+  "name": "com.codysource.webglkeyboard_simplified",
+  "version": "1.0.2",
+  "displayName": "WebGL Keyboard Simplified",
+  "description": "This package contains a simplified virtual keyboard for webgl builds. Ideally, used in place of mobile keyboards.",
+  "unity": "2020.3",
+  "unityRelease": "15f2",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "author": {
+    "name": "Cody Source"
+  }
+}

@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd415dff01ba9654cb59fa3d5f52cd5e, type: 3}
+  m_Name: Alpha_Config
+  m_EditorClassIdentifier: 
+  rows:
+  - keys:
+    - name: q
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: w
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: e
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: r
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: t
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: y
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: u
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: i
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: o
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: p
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+  - keys:
+    - name: a
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: s
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: d
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: f
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: g
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: h
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: j
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: k
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: l
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+  - keys:
+    - name: <sprite name="Caps_Off" tint>
+      function: 1
+      operation: 1
+      widthMultiplier: 1.5
+      alternateButtonColor: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 5, z: 0, w: 0}
+    - name: z
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: x
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: c
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: v
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: b
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: n
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: m
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: <sprite name="Backspace" tint>
+      function: 1
+      operation: 8
+      widthMultiplier: 1.5
+      alternateButtonColor: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 5, z: 0, w: 0}
+  - keys:
+    - name: 123
+      function: 1
+      operation: 3
+      widthMultiplier: 2.5
+      alternateButtonColor: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+      isAlternateColor: 0
+      isAlternateSize: 1
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 10, z: 0, w: 0}
+    - name: space
+      function: 1
+      operation: 7
+      widthMultiplier: 4.75
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 1
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: .
+      function: 0
+      operation: 0
+      widthMultiplier: 1
+      alternateButtonColor: {r: 0, g: 0, b: 0, a: 0}
+      isAlternateColor: 0
+      isAlternateSize: 0
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
+    - name: go
+      function: 1
+      operation: 6
+      widthMultiplier: 2
+      alternateButtonColor: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+      isAlternateColor: 0
+      isAlternateSize: 1
+      resetToAlpha: 0
+      customMargin: {x: 0, y: 0, z: 0, w: 0}
