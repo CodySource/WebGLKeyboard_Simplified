@@ -37,6 +37,7 @@ namespace CodySource
             public TMP_InputField target => _target;
             private TMP_InputField _target = null;
             private Dictionary<GameObject, KeyConfig> _keys = new Dictionary<GameObject, KeyConfig>();
+            private int caretPos = 0;
 
             #endregion
 
@@ -49,6 +50,7 @@ namespace CodySource
             {
                 //  Breakout if no target or the key config is empty
                 if (_target == null || pKey.name == "") return;
+                bool isSelection = false;
                 switch (pKey.function)
                 {
                     //  Apply the text and reset to alpha config if the key requires it (used when hitting the "Shift" option)
@@ -99,7 +101,11 @@ namespace CodySource
                 bool cache = _target.onFocusSelectAll;
                 _target.onFocusSelectAll = false;
                 _target.Select();
-                _target.onFocusSelectAll = cache;
+                StartCoroutine(_WaitTwoFrames(() => {
+                    _target.onFocusSelectAll = cache;
+                    _target.stringPosition = caretPos;
+                    _target.ForceLabelUpdate();
+                }));
 
                 /// Adds the text to the target input
                 void _AddText(string pText)
@@ -108,13 +114,13 @@ namespace CodySource
                     string text = (isBackspace) ? "" : pText;
                     int caretStart = Mathf.Min(_target.selectionAnchorPosition, _target.selectionFocusPosition);
                     int caretEnd = Mathf.Max(_target.selectionAnchorPosition, _target.selectionFocusPosition);
-                    bool isSelection = caretStart == caretEnd;
+                    isSelection = caretStart == caretEnd;
                     string newText = _target.text.Substring(0, Mathf.Max(caretStart - ((isBackspace && isSelection) ? 1 : 0), 0)) + text + _target.text.Substring(caretEnd);
                     _target.text = newText;
                     //  The caret will increment by 1 unless the key was backspace.
                     //  If the key was a backspace but the caret was at the end of the text or it was a text selection, the caret will stay the same.
                     //  Otherwise, the caret will decrement by 1 if the key was backspace.
-                    _target.caretPosition = (isBackspace) ? Mathf.Max(((caretStart > newText.Length || !isSelection) ? caretStart : caretStart - 1), 0) : caretStart + 1;
+                    caretPos = (isBackspace) ? Mathf.Max(((caretStart > newText.Length || !isSelection) ? caretStart : caretStart - 1), 0) : caretStart + 1;
                 }
             }
 
@@ -126,6 +132,20 @@ namespace CodySource
             #endregion
 
             #region PRIVATE METHODS
+
+            /// <summary>
+            /// Waits 2 frames
+            /// </summary>
+            private IEnumerator _WaitTwoFrames(System.Action pAction)
+            {
+                int frames = 2;
+                while (frames > 0)
+                {
+                    frames--;
+                    yield return new WaitForEndOfFrame();
+                }
+                pAction?.Invoke();
+            }
 
             /// <summary>
             /// Singleton
